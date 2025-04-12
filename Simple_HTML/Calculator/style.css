@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    font: 1em sans-serif;
+}
+.calculator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.body{
+    width: 350px;
+    height: 390px;
+    background-color:gray;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+.casio{
+    color: white;
+    font-size: 20px;
+    margin: 5px;
+}
+input{
+    text-align: right;
+    outline: none;
+    width: 335px;
+    height: 50px;
+    border-width: 0;
+    font-size:50px;
+    font-weight: lighter;
+    padding: 2px;
+    margin-left: 4px;
+}
+.button-whole{
+    padding: 20px;
+    margin-top: -10px;
+}
+.button{
+    width: 74px;
+    height: 60px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: black;
+    color: wheat;
+    font-size: 30px;
+}
+.button:hover{
+    border-color: white;
+}
+.clear{
+    background-color: red;
+}
