@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            width: 100%;
+        }
+        .container{
+            max-width: 350px;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            flex-direction: column;
+        }
+        .upper{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-style: solid;
+            border-width: .5px;
+            border-color: rgba(128, 128, 128, 0.257);
+            margin-top: 10px;
+            padding: 35px;
+        }
+        .text,.text2{
+            font-size: 16px;
+            font-weight: 600;
+            color: grey;
+        }
+    
+        #logo{
+            width:170px;
+            height:82px; 
+            margin-top:-25px;
+
+        }
+        #facebook{
+            width: 16px;
+            height: 16px;
+            position: relative;
+            top: 24px;
+            left: -70px;
+            right: 27px;
+            bottom: 11px;
+        }
+        .button{
+            width:283px;
+            padding: 9px;
+            padding-left: 28px;
+            color: white;
+            background-color:rgba( 0, 149, 246);
+            border-width: 0;
+            border-radius: 8px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        .line{
+            display: flex;
+            width: 120px;
+            height: 1px;
+            background-color: rgba(128, 128, 128, 0.261);
+            position: relative;
+            top: -2px;
+            left: -80px;
+            right: 10px;
+            bottom: 10px;
+            margin: 10px;
+        }
+        .lin2{
+            display: flex;
+            width: 120px;
+            height: 1px;
+            background-color: rgba(128, 128, 128, 0.261);
+            position: relative;
+            top: -39px;
+            left: 81px;
+            right: 12px;
+            bottom: 10px;
+            margin: 10px;
+        }
+        .or{
+            position: relative;
+            top: -22px;
+            left: 61px;
+            font-size: 12px;
+            font-weight: 600;
+            color: grey;
+        }
+        .input{
+            width: 283px;
+            margin-bottom: 5px;
+            padding:10px;
+            font-size: 10px;
+            border-width: .5px;
+            border-color: rgba(128, 128, 128, 0.303);
+        }
+        
+        form{
+            margin-top: -38px;
+        }
+        .form_label{
+            font-size:10px;
+            display: block;
+            position: absolute;
+            top: 253px;
+        }
+        
+        .lin-or{
+            margin: 13px;
+        }
+        .text3{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .text3-1,.text3-2{
+            margin-top: 10px;
+            font-size: 12px;
+            color: grey;
+        
+        }
+        .link1{
+            text-decoration: none;
+            color: rgb(0, 55, 107);
+        }
+        .submit{
+            width:283px;
+            padding: 9px;
+            color: white;
+            background-color:#4CB5F9;
+            border-width:0;
+            border-radius: 8px;
+            font-size: 12px;
+            font-weight: 600;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .middle{
+            width:100%;
+            border-style: solid;
+            border-color: rgba(128, 128, 128, 0.24);
+            border-width: .5px;
+            text-align: center;
+            padding: 20px;
+            margin-top: 15px;
+            font-size: 14px;
+        }
+        .login-link{
+            text-decoration: none;
+            color: rgba( 0, 149, 246);
+        }
+        .text4{
+            text-align: center;
+            margin-top: 16px;
+            font-size: 14px;
+        }
+        .ps{
+            width: 122px;
+            margin-left: 50px;
+            margin-top: 20px;
+        }
+        .ms{
+            width:100px;
+            margin-left: 5px;
+            margin-top:10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="upper">
+             <div class="log"><img  id="logo" src="pngegg.png" alt=""></div>
+            <div class="text">Sign up to see photos and videos<br></div>    
+            <div class="text2">from your friends.</div>
+            <img id="facebook" src="Screenshot 2023-11-01 171945.png" alt="">
+            <button class="button">Login in with Facebook</button>
+            <div class="lin-or">
+                    <div class="line"></div>
+                    <div class="or">OR</div>
+                    <div class="lin2"></div>
+            </div>
+            <div class="form">    
+                <form action="#">
+                    <input class= "input" type="text" placeholder="Mobile Number or Email"><br>
+                    <input class= "input" type="text" placeholder="Fullname"><br>
+                    <input class= "input" type="text" placeholder="Username"><br>
+                    <input class= "input" type="text" placeholder="Password">
+                </form>
+            </div>
+            <div class="text3">
+                <div class="text3-1"><p>People who use our service may have uploaded <br> your contact information to Instagram. <a class="link1"href="#">Learn More</a> </p></div>
+                <div class="text3-2"><p>By signing up, you agree to our <a  class="link1"href="#">Terms</a> , <a  class="link1"href="#"> Privacy  <br> Policy</a> and <a  class="link1"href="#">Cookies Policy</a> .</p></div>
+            </div>
+            <div class="submit1"><button class="submit">Signup</button></div>
+        </div>
+        <div class="middle">
+            Have an account? <a class="login-link" href="#">Log in</a>
+        </div>
+        <div class="lower">
+            <div class="text4">get the app. </div>
+            <div class="others">
+                <a href="https://play.google.com/store/search?q=instagram&c=apps&hl=en-IN"><img class="ps" src="playstore - Copy copy.png" alt=""></a>
+                <a href="https://apps.microsoft.com/detail/instagram/9NBLGGH5L9XT?hl=en-us&gl=IN"><img class="ms"src="microsoft.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
