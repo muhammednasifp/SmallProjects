@@ -68,6 +68,13 @@ p{
     border-radius: 30px;
     transition: background 0.5s;
 }
+
+#checkoutBtn{
+
+    font-size: 20px
+
+
+}
 .btn:hover{
     background: #563434;
 }
